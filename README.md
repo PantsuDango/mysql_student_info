@@ -1,13 +1,6 @@
 ## 项目介绍：
 基于MySQL的学生信息管理系统搭建，能实现注册登录，增删改查一键导入导出等功能。  
 拥有GUI交互界面，底层和MySQL数据库连接，在界面操作实现和MySQL之间的数据信息交互。  
-grant命令实现注册用户并分级权限；  
-create命令实现建库建表；  
-insert命令实现记录的写入；  
-select命令实现记录查询；  
-update命令实现记录更新；  
-delete命令实现记录删除；  
-pandas库实现excel文件导入导出。
 
 ## 运行准备：
 + 需要安装的第三方库：pymysql、pandas、cryptography、openpyxl（建议版本2.4.9 不可用3.0以上）、xlrd
