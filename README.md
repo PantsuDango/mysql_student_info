@@ -4,7 +4,7 @@
 
 ## 运行准备：
 + 需要安装的第三方库：pymysql、pandas、cryptography、openpyxl（建议版本2.4.9 不可用3.0以上）、xlrd
-+ 安装Mysql，且保证Mysql为开启服务状态（建议8.0以上）
++ 安装MySQL，且保证Mysql为开启服务状态（建议8.0以上）
 + 修改 preset.py 文件第8行括号内的  password='121031' 的 121031 修改为你自己mysql的root用户密码
 + 修改 preset.py 文件第57行括号内的 ‘密码' : ['121031'] 的 121031 修改为你自己mysql的root用户密码
 + 修改 main.py 文件第371行括号内的  password='121031' 的 121031 修改为你自己mysql的root用户密码
